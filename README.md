@@ -1,2 +1,1 @@
-# baasslab1.2
-baasslab1.2
+I'm a science enthusiest and I want to make it easier for teachers, professors, and other science enthusists to play with bass. Specifically, this site is to help people build a speaker box and use the tones here to make Oobleck dance.
