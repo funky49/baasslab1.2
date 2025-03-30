@@ -7,33 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
     <h1>Basslab 1.2</h1>
+    <HR>
     <div>
-        <label for="note-duration">Note Duration (seconds):</label>
-        <input type="number" id="note-duration" value="1" min="0.1" step="0.1">
         <label for="waveform">Waveform:</label>
-<select id="waveform">
-    <option value="sine">Sine</option>
-    <option value="square">Square</option>
-    <option value="sawtooth">Sawtooth</option>
-    <option value="triangle">Triangle</option>
-</select>
-<label>
-    <input type="checkbox" id="filter-120hz" />
-    120Hz Low-Pass Filter
-</label>
-<label>
-    <input type="checkbox" id="filter-90hz" />
-    90Hz Low-Pass Filter
-</label>
+            <select id="waveform">
+                <option value="sine">Sine</option>
+                <option value="square">Square</option>
+                <option value="sawtooth">Sawtooth</option>
+                <option value="triangle">Triangle</option>
+            </select>
+        <label>
+        <input type="checkbox" id="filter-120hz" />
+        120Hz Low-Pass Filter
+        </label>
+        <label>
+            <input type="checkbox" id="filter-90hz" />
+            90Hz Low-Pass Filter
+        </label>
 
     </div>
 
 
     <HR>
         Notes
+        <label for="note-duration">Note Duration (seconds):</label>
+        <input type="number" id="note-duration" value="1" min="0.1" step="0.1">
     <div id="piano">
         <div class="white-key" data-frequency="20">20.00 Hz E0</div>
         <div class="white-key" data-frequency="22">22.00 Hz F0</div>
@@ -64,10 +63,11 @@
 <HR>
     Bass Drops and Bass Risers
     <P>
-    
         <button id="drop9020-button">Play Drop (90Hz to 20Hz)</button>
         <button id="rise9020-button">Play Rise (20Hz to 90Hz)</button>
-    <HR>
+<HR>
+
+
     <div>
         <h2>User Story</h2>
         <p>I'm a science enthusiest and I want to make it easier for teachers, professors, and other science enthusists to play with bass. Specifically, this site is to help people build a speaker box and use the tones here to make Oobleck dance.</p>
